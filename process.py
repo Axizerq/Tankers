@@ -1,6 +1,6 @@
 import pandas as pd
 
-def analyze():
+def process_data():
     df = pd.read_csv("output/shadow_tankers.csv")
 
     print(f"📊 Total sanctioned vessels: {len(df)}\n")
@@ -45,4 +45,5 @@ def analyze():
     print("✅ Saved output/russian_shadow_tankers.csv")
 
 if __name__ == "__main__":
-    analyze()
+    process_data()
+

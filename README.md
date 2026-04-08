@@ -95,6 +95,7 @@ Tankers/
 1. Place `ofac_sdn.csv` inside the `data/` folder.
 2. Run:
 
+python download.py
 python process.py
 python analysis.py
 
